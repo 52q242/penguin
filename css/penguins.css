@@ -6,8 +6,9 @@ body {
     font-family: Quicksand;
     border-style: solid;
     border-width: 5px;
-    border-color: #FFFBF5;
+    border-color: 	#000000;
     image-resolution: 100%;
+    background-color: #FFFBF5
 }   
 
 footer {
@@ -16,19 +17,20 @@ footer {
     clear: both;
     border-top-style: solid;
     border-top-width: 5px;
-    border-top-color: #FFFBF5;
+    border-top-color: #000000;;
     margin-top: 0;
     padding: 0;
 }
 h1 {
     font-family: Super Foods;
+    text-shadow: 3px 3px 3px #888888;
     margin-top: 5px;
     margin-bottom: 0px;
 }
 header {
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: #FFFBF5;
+    border-bottom-color: #000000;;
 }
 nav {
     background: #FFFBF5;
@@ -37,10 +39,25 @@ nav {
     height: 420px;
     padding-right: 24px;
     margin-right: 10px;
+    opacity: 0.7;
 }
 .floatright {
     float: right;
     clear: right;
     margin: 10px;
     font-size: 10px
+}
+section {
+    background-image: url(../images/penguinbackground2.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.navlinks {
+    border: 2px solid #a1a1a1;
+    padding: 2px 5px;
+    background: #add8e6;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #888888;
 }
