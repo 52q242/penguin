@@ -65,3 +65,17 @@ section {
 h1 ~ p {
     background-color: rgb(184, 220, 236);
 }
+
+#img-rotate {
+    -ms-transform: rotate(345deg);
+    -webkit-transform: rotate(345deg); 
+    transform: rotate(345deg);
+}
+
+#video-rotate {
+    -ms-transform: rotate(15deg); 
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);
+}
+
+
