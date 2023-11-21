@@ -150,3 +150,12 @@ section {
     display: inline-block;
 }
 
+#img-rotate:hover {
+    transform: rotate(180deg);
+    transition: width 2s, transform 2s;
+}
+
+#video-rotate:hover {
+    transform: rotate(180deg);
+    transition: width 2s, transform 2s;
+}
